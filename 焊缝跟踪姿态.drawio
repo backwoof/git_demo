@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T02:30:52.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YwJreojjomfRIq4uMxfR" version="22.1.19" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T03:12:16.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8yy-ngTP4rT72tcKM7BD" version="22.1.19" type="github">
   <diagram name="第 1 页" id="qrdvi6JPUX82MHN96o6e">
-    <mxGraphModel dx="317" dy="197" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="647" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1461,6 +1461,63 @@
         </mxCell>
         <mxCell id="y-5mXB3dgbrBdPOksK8j-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Y&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="727.94" y="1501" width="15" height="11.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-12" target="y-5mXB3dgbrBdPOksK8j-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-12" value="开始" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1323.5" y="383.25" width="99" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-13" target="y-5mXB3dgbrBdPOksK8j-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-13" value="拍摄大于10张棋盘格图片(不同方位)" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="441.75" width="206" height="27.25" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-15" target="y-5mXB3dgbrBdPOksK8j-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-15" value="检测每张图片的角点" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1313" y="485" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-17" target="y-5mXB3dgbrBdPOksK8j-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-17" value="在标定板上建立世界坐标系" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="531.5" width="162" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-19" target="y-5mXB3dgbrBdPOksK8j-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-19" value="在拍摄图像建立像素坐标系" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1286.5" y="584" width="173" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-21" target="y-5mXB3dgbrBdPOksK8j-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-21" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.75); font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;计算相机内外参数的优化初值&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="634" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-23" target="y-5mXB3dgbrBdPOksK8j-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-23" value="使用L-M算法初步优化出相机的内外参数" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="684" width="174" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-25" target="y-5mXB3dgbrBdPOksK8j-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-25" value="畸变参数估计" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1313" y="742" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontStyle=1;" edge="1" parent="1" source="y-5mXB3dgbrBdPOksK8j-27" target="y-5mXB3dgbrBdPOksK8j-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-27" value="使用L-M算法优化参数" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="784" width="126" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="y-5mXB3dgbrBdPOksK8j-32" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1323.5" y="827" width="99" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
